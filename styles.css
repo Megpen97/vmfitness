@@ -22,10 +22,12 @@ a:visited {
 }
 
 .main-header {
+    position: fixed;
+    z-index: 1;
     text-align: right;
     background-color: rgb(46, 45, 45);
     margin: -10px;
-    min-width: 595px;
+    width: 100%;
     padding: 10px;
 }
 
@@ -103,8 +105,8 @@ a:visited {
     text-shadow: white 1px 1px 5px;
     font-size: 2.3em;
     font-weight: bold;
-    margin: 12px auto;
-    padding: 100px 150px;
+    margin: 10px auto;
+    padding: 150px 150px 100px;
     min-width: 200px;
     display: flex;
     text-align: center;
@@ -167,7 +169,7 @@ button {
     display: block;
     background-color: rgb(250, 250, 172);
     max-width: fit-content;
-    margin: 200px auto;
+    margin: 100px auto;
     padding: 100px;
     padding-bottom: 10px;
     border-radius: 25px;
@@ -253,7 +255,7 @@ input, textarea {
 
 .plans {
     display: flex;
-    margin: 20px auto;
+    margin: 50px auto;
     gap: 50px;
     max-width: 950px;
 }
